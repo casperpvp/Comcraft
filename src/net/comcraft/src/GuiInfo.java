@@ -62,7 +62,7 @@ public class GuiInfo extends GuiScreen {
 
         elementsList.addElement(new GuiButton(cc, 7, centerX, y, cc.langBundle.getText("GuiInfo.labelVersion")));
         y += GuiButton.getButtonHeight() + smallInterval;
-        elementsList.addElement(new GuiButton(cc, 8, centerX, y, "1.0 (Open source)"));
+        elementsList.addElement(new GuiButton(cc, 8, centerX, y, "1.1 (Premium)"));
 
         y += GuiButton.getButtonHeight() + bigInterval;
 
